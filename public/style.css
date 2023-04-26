@@ -1,0 +1,47 @@
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(70, 70, 70);
+  color: aliceblue;
+}
+
+.form-signin {
+  color: rgb(29, 29, 29);
+  max-width: 330px;
+  padding: 15px;
+}
+
+.h3,
+.remember-me {
+  color: aliceblue;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="firstName"] {
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+
+.form-signin input[type="lastName"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
